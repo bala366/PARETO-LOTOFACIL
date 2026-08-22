@@ -1,0 +1,31 @@
+LOTOFÁCIL PARETO — V2.0
+
+IMPORTANTE: esta versão NÃO usa ./gradlew no GitHub Actions.
+O erro anterior aconteceu porque o workflow tentou executar um arquivo gradlew que não existia no repositório.
+
+COMO SUBIR NO GITHUB
+1. Extraia este ZIP.
+2. Entre na pasta LOTOFACIL_PARETO_V2.
+3. Envie TODO o conteúdo interno para a raiz do repositório.
+4. Confirme que aparecem na raiz:
+   - app/
+   - .github/
+   - build.gradle.kts
+   - settings.gradle.kts
+   - gradle.properties
+5. Vá em Actions.
+6. Abra "Compilar APK - Lotofacil Pareto".
+7. Clique em Run workflow.
+8. Ao concluir, baixe o artefato LOTOFACIL-PARETO-APK.
+
+MOTOR
+- Matriz posicional P01 até P15.
+- Janela principal de 10 concursos.
+- Combinação interna de 3, 5, 10, 20, 50 e histórico.
+- Sugestão de 1 jogo.
+- Geração de 100 jogos.
+- BlackTest cego temporal.
+- O concurso testado não participa da geração usada para testá-lo.
+
+ATENÇÃO
+Ferramentas estatísticas não garantem resultado em loterias.

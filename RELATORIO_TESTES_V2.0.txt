@@ -1,0 +1,16 @@
+LOTOFÁCIL PARETO V2.0
+
+CORREÇÃO PRINCIPAL:
+- removida a dependência do arquivo gradlew no workflow;
+- GitHub Actions instala Gradle 8.9 diretamente;
+- Java 17 explícito;
+- checagem automática da estrutura antes da compilação;
+- checagem automática do APK antes do upload.
+
+MOTOR:
+- P01-P15;
+- janela 10 como núcleo;
+- pesos multijanela 3/5/10/20/50/histórico;
+- sugestão de jogo;
+- 100 jogos;
+- BlackTest cego.

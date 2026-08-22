@@ -1,0 +1,11 @@
+ARQUIVO CORRETO:
+.github/workflows/build-apk.yml
+
+Este projeto usa gradle/actions/setup-gradle@v4 para instalar o Gradle 8.9.
+Por isso NÃO existe etapa "chmod +x gradlew" e NÃO depende de arquivo gradlew.
+
+PASSOS NO GITHUB:
+Actions > Compilar APK - Lotofacil Pareto > Run workflow > Run workflow
+
+ARTEFATO FINAL:
+LOTOFACIL-PARETO-APK
